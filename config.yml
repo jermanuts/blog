@@ -1,0 +1,62 @@
+baseURL: ""
+languageCode: 'en-us'
+title: 'Jermanuts'
+theme: "PaperMod"
+
+
+params:
+  # for search
+  # https://fusejs.io/api/options.html
+ fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary"]
+
+ homeInfoParams:
+   Title: "Hi there."
+   Content: Research on security and privacy.
+
+ socialIcons:
+   - name: github
+     url: "https://github.com/jermanuts"
+
+ showBreadCrumbs: true
+ ShowPostNavLinks: true
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+    
+
+
+
+markup:
+    highlight:
+        style: dracula
+        noClasses: false
+        guessSyntax: true
+
+menu:
+    main:
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: Search
+          name: Search
+          url: /search/
+          weight: 30
+

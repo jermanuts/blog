@@ -1,7 +1,7 @@
-baseURL: "https://jermanuts.vercel.app/"
-languageCode: 'en-us'
-title: 'Jermanuts'
-theme: "PaperMod"
+baseURL: https://jermanuts.vercel.app/
+languageCode: en-us
+title: Jermanuts
+theme: WonderMod
 
 
 params:

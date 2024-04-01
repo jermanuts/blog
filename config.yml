@@ -18,6 +18,7 @@ params:
  DateFormat: "January 2, 2006"
  defaultTheme: dark # dark, light
  disableThemeToggle: false
+ ShowFullTextinRSS: true
   # for search
   # https://fusejs.io/api/options.html
  fuseOpts:
@@ -39,6 +40,8 @@ params:
  socialIcons:
    - name: github
      url: "https://github.com/jermanuts"
+   - name: rss
+     url: /index.xml
 
  ShowReadingTime: true
  ShowShareButtons: false
